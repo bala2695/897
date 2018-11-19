@@ -22,9 +22,9 @@ import { BottomfooterComponent } from './bottomfooter/bottomfooter.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
-   
-      {path:"login",component:LoginComponent},
-      {path:"",component:LoginComponent},
+   {path:"",component:LoginComponent},
+      {path:"login",component:LoginComponent}
+      ,
     ])
       
   ],
