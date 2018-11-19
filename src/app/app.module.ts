@@ -18,9 +18,9 @@ import { LoginComponent } from './login/login.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
-   
-      {path:"login",component:LoginComponent},
-      {path:"",component:LoginComponent},
+   {path:"",component:LoginComponent},
+      {path:"login",component:LoginComponent}
+      }
     ])
       
   ],
